@@ -4,7 +4,7 @@ for a in range(1, 101):
         print("Fizz", end=" ")
     if (a % 5 == 0):
         print("Buzz", end=" ")
-    if (a % 3 == 0) or (a % 5 == 0):
+    if (a % 3 == 0) and (a % 5 == 0):
         print("FizzBuzz", end=" ")
     else:
         print("{:d}".format(a), end=" ")
