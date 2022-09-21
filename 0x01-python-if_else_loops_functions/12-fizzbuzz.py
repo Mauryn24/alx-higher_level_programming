@@ -6,3 +6,5 @@ for a in range(1, 101):
         print("Buzz", end=" ")
     if (a % 3 == 0) or (a % 5 == 0):
         print("FizzBuzz", end=" ")
+    else:
+        print("{:d}".format(i), end=" ")
