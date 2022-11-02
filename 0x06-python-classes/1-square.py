@@ -1,17 +1,10 @@
 #!/usr/bin/python3
-"""
-define a class
-"""
+"""class definition"""
 
 
-class  Square:
-    """
-    keeping the size attribute private
-    Instantiation with size
-    You are not allowed to import any module
-    """
+class Square:
+    """represent a square"""
+
     def __init__(self, size):
-        """
-        private attribute
-        """
-        self.size = size
+        """initialize a square"""
+        self.__size = size
