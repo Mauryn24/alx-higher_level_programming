@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """define a class"""
 
+
 class Square:
     """initialize an object"""
 
@@ -9,7 +10,7 @@ class Square:
         self.__size = size
         """handling exceptions"""
         try:
-            asert.type(size) == int
+            assert type(size) == int
         except:
             raise TypeError("size must be an integer")
         if size < 0:
